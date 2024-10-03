@@ -1,0 +1,31 @@
+.listReviews {
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.listReviews h1 {
+  text-align: center;
+}
+
+.listReviews-format-main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 10px;
+  background: #ffffff;
+  gap: 50px;
+}
+
+.listReviews-format {
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  align-items: center;
+}
+
+.listReviews-remove-icon {
+  width: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+}
